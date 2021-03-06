@@ -149,6 +149,7 @@ class GaroSensor(Entity):
                 Status.CHARGING_CANCELLED: "mdi:cancel",
                 Status.CHARGING_FINISHED: "mdi:battery",
                 Status.CHARGING_PAUSED: "mdi:pause",
+                Status.CHARGING_DISABLED: "mdi:close-octagon",
                 Status.CONNECTED: "mdi:power-plug",
                 Status.CONTACTOR_FAULT: "mdi:alert",
                 Status.CRITICAL_TEMPERATURE: "mdi:alert",
